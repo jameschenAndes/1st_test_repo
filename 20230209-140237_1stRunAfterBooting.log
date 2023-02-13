@@ -1,0 +1,601 @@
+Bridge_Interface_Init
+JOB_NAME_LEN:64
+JOB_STATUS_NAME_LEN:256
+FOLDER_NAME_LEN:64
+FILE_NAME_LEN:64
+JOB_PASSWD_LEN:16
+JOB_PATH_LEN:256
+OWNER_NAME_LEN:31
+OWNER_PASS_LEN:31
+RIPSPoolManagementInitial
+Ips2Dev_Initialize!
+IPSThread is called.
+Memory physical size is 33554432 (0x2000000)
+ = 32m
+
+Memory base provider is 'Bitfield' (default)
+
+Info: set page.resolution = 600x600 (Enum:
+ 300x300
+ 300x600
+ 600x300
+ 600x600
+ 1200x600
+ 600x1200
+ 1200x1200
+ Custom
+)
+
+Info: set system.forever = TRUE (Enum:
+ FALSE
+ TRUE
+)
+
+Info: set system.ps.waittimeout = 0 (Unsigned range 0-4294967295 step 1)
+
+Info: set system.configuration.duplexer = FALSE (Enum:
+ FALSE
+ TRUE
+)
+
+Info: set page.sizeRequested = TRUE (Enum:
+ FALSE
+ TRUE
+)
+
+Info: set page.mediaSize = ISOA4 (Enum:
+ NALetter
+ NALegal
+ NA11x17
+ NAArchitectureBSheet
+ NASuperB
+ NAExecutive
+ ISOA4
+ ISOA4Wide
+ ISOA3
+ ISOA5
+ ISOA6
+ NAArchitectureASheet
+ NANumber10Envelope
+ NAMonarchEnvelope
+ ISOC5Envelope
+ ISOC6Envelope
+ PCLB5
+ ISOB5Envelope
+ ISODLEnvelope
+ JISB4
+ JISB5
+ JISB6
+ JPHagakiPostcard
+ JPDoubleHagakiPostcard
+ JPChou3Envelope
+ JPChou4Envelope
+ NAStatement
+ NA5x7
+ NA4x6
+ ISOA0
+ ISOA1
+ ISOA2
+ NACSheet
+ NAArchitectureCSheet
+ NADSheet
+ NAArchitectureDSheet
+ NAESheet
+ NAArchitectureESheet
+ NAArchitectureFSheet
+ CreditCard
+ ISOA10
+ ISOA3Extra
+ ISOA4Extra
+ ISOA5Extra
+ ISOA7
+ ISOA8
+ ISOA9
+ ISOB0
+ ISOB1
+ ISOB10
+ ISOB2
+ ISOB3
+ ISOB4
+ ISOB4Envelope
+ ISOB5Extra
+ ISOB7
+ ISOB8
+ ISOB9
+ ISOC0
+ ISOC1
+ ISOC10
+ ISOC2
+ ISOC3
+ ISOC3Envelope
+ ISOC4
+ ISOC4Envelope
+ ISOC5
+ ISOC6
+ ISOC6C5Envelope
+ ISOC7
+ ISOC8
+ ISOC9
+ ISOSRA3
+ JP2LPhoto
+ JPKaku2Envelope
+ JPKaku3Envelope
+ JPLPhoto
+ JPQuadrupleHagakiPostcard
+ JPYou1Envelope
+ JPYou2Envelope
+ JPYou3Envelope
+ JPYou4Envelope
+ JPYou6Envelope
+ JISB0
+ JISB1
+ JISB10
+ JISB2
+ JISB3
+ JISB7
+ JISB8
+ JISB9
+ NA10x11
+ NA10x12
+ NA10x14
+ NA14x17
+ NA3x5
+ NA4x8
+ NA8x10
+ NA9x11
+ NAGermanLegalFanfold
+ NAGermanStandardFanfold
+ NALegalExtra
+ NALetterExtra
+ NALetterPlus
+ NANote
+ NANumber11Envelope
+ NANumber12Envelope
+ NANumber14Envelope
+ NANumber9Envelope
+ NAPersonalEnvelope
+ NAQuarto
+ WINSuperA
+ WINSuperB
+ NATabloid
+ NATabloidExtra
+ PhotoL
+ DSCPhoto
+ OtherMetricA3Plus
+ OtherMetricA4Plus
+ OtherMetricFolio
+ OtherMetricInviteEnvelope
+ OtherMetricItalianEnvelope
+ PRC10Envelope
+ PRC16K
+ PRC1Envelope
+ PRC2Envelope
+ PRC32K
+ PRC32KBig
+ PRC3Envelope
+ PRC4Envelope
+ PRC5Envelope
+ PRC6Envelope
+ PRC7Envelope
+ PRC8Envelope
+ PRC9Envelope
+ Roll04Inch
+ Roll06Inch
+ Roll08Inch
+ Roll12Inch
+ Roll15Inch
+ Roll18Inch
+ Roll22Inch
+ Roll24Inch
+ Roll30Inch
+ Roll36Inch
+ Roll54Inch
+ Custom
+ PSCustom
+ 8K
+ 16K
+ ISOB6
+ FOOLSCAP
+)
+
+Info: set page.scaling = Autofit (Enum:
+ Fit
+ Fill
+ Autofit
+ Auto
+ None
+)
+
+Info: set job.pdf.scaling = Yes (Enum:
+ Default
+ Yes
+ No
+ Shrink
+)
+
+Info: set page.copies = 1 (Unsigned range 0-999 step 1)
+
+Info: set page.duplex = Disable (Enum:
+ Disable
+ Enable
+)
+
+Info: set page.duplexRequested = TRUE (Enum:
+ FALSE
+ TRUE
+)
+
+Info: set job.output.driver = RAW (Enum:
+ Default
+ CSUM
+ POSTER
+ X11
+ PCL
+ PCLXL
+ PS
+ PBM
+ PBJ
+ BMP
+ PNG
+ RAW
+ TIF
+ CUSTOM
+ POQ
+ URF
+ NULL
+)
+
+Using default output model(s):
+
+  PS:  8-bit Contone RGB Planar Model
+
+  PCL:  8-bit Contone RGB Planar Model
+
+  IMG:  8-bit Contone RGB Planar Model
+
+MakeEmulatedDisk: created "PSdisk0" in the current directory
+
+MakeEmulatedDisk: created "PSdisk1" in the current directory
+
+MakeEmulatedDisk: created "PSdisk2" in the current directory
+
+
+This is Main, thread creating
+Mutex initial done!
+Forerunner_SetTimeoutForReadbackChannel : Timeout = 10(unit : 500 ms)
+RIPsIO_DataIN Created thread[0]=2476726080!!
+This is Main, wait for thread completion
+Forerunner_TimeoutReset
+PATH is a dir.
+Test6_pcl6_600_3.prn
+..
+.
+thread1 : I'm RIPsIO_DataIN
+printsize: 1024
+1B. 25. 2D. 31. 32. 33. 34. 35. 58. 40. 50. 4A. 4C. 20. 4A. 4F. 
+42. 0A. 40. 50. 4A. 4C. 20. 43. 4F. 4D. 4D. 45. 4E. 54. 20. 4D. 
+53. 20. 50. 43. 4C. 58. 4C. 20. 4E. 54. 20. 44. 72. 69. 76. 65. 
+72. 0A. 40. 50. 4A. 4C. 20. 4A. 4F. 42. 20. 4E. 41. 4D. 45. 3D. 
+22. E7. 89. 88. E5. BC. 8F. E6. 96. 87. E4. BB. B6. 28. 54. 65. 
+73. 74. 36. 29. 2E. 70. 64. 66. 22. 0A. 40. 50. 4A. 4C. 20. 53. 
+45. 54. 20. 53. 54. 52. 49. 4E. 47. 43. 4F. 44. 45. 53. 45. 54. 
+3D. 55. 54. 46. 38. 0A. 40. 50. 4A. 4C. 20. 43. 4F. 4D. 4D. 45. 
+4E. 54. 20. 22. 48. 50. 20. 43. 6F. 6C. 6F. 72. 20. 4C. 61. 73. 
+65. 72. 4A. 65. 74. 20. 32. 37. 30. 30. 20. 53. 65. 72. 69. 65. 
+73. 20. 50. 43. 4C. 36. 20. 28. 30. 2E. 33. 2E. 37. 30. 37. 31. 
+2E. 30. 29. 3B. 20. 57. 69. 6E. 64. 6F. 77. 73. 20. 37. 20. 45. 
+6E. 74. 65. 72. 70. 72. 69. 73. 65. 20. 36. 2E. 31. 2E. 37. 36. 
+30. 31. 2E. 31. 3B. 20. 55. 6E. 69. 64. 72. 76. 20. 30. 2E. 33. 
+2E. 37. 36. 30. 31. 2E. 32. 31. 38. 35. 33. 22. 0A. 40. 50. 4A. 
+4C. 20. 43. 4F. 4D. 4D. 45. 4E. 54. 20. 22. 55. 73. 65. 72. 6E. 
+61. 6D. 65. 3A. 20. 41. 56. 30. 31. 39. 36. 34. 3B. 20. 41. 70. 
+70. 20. 46. 69. 6C. 65. 6E. 61. 6D. 65. 3A. 20. E7. 89. 88. E5. 
+BC. 8F. E6. 96. 87. E4. BB. B6. 28. 54. 65. 73. 74. 36. 29. 2E. 
+70. 64. 66. 3B. 20. 31. 2D. 32. 39. 2D. 32. 30. 32. 31. 22. 0A. 
+40. 50. 4A. 4C. 20. 53. 45. 54. 20. 53. 4D. 4F. 4F. 54. 48. 49. 
+4E. 47. 3D. 4F. 4E. 0A. 40. 50. 4A. 4C. 20. 44. 4D. 49. 4E. 46. 
+4F. 20. 41. 53. 43. 49. 49. 48. 45. 58. 3D. 22. 30. 34. 30. 30. 
+30. 34. 30. 31. 30. 31. 30. 32. 30. 44. 31. 30. 31. 30. 30. 31. 
+31. 35. 33. 32. 33. 30. 33. 32. 33. 31. 33. 30. 33. 31. 33. 32. 
+33. 39. 33. 30. 33. 36. 33. 32. 33. 32. 33. 35. 33. 36. 22. 0A. 
+40. 50. 4A. 4C. 20. 53. 45. 54. 20. 50. 52. 4F. 43. 45. 53. 53. 
+49. 4E. 47. 54. 59. 50. 45. 3D. 50. 49. 5F. 43. 4F. 56. 45. 52. 
+5F. 42. 41. 43. 4B. 0A. 40. 50. 4A. 4C. 20. 53. 45. 54. 20. 50. 
+52. 4F. 43. 45. 53. 53. 49. 4E. 47. 4F. 50. 54. 49. 4F. 4E. 3D. 
+4F. 46. 46. 0A. 40. 50. 4A. 4C. 20. 53. 45. 54. 20. 50. 52. 4F. 
+43. 45. 53. 53. 49. 4E. 47. 54. 59. 50. 45. 3D. 50. 49. 5F. 43. 
+4F. 56. 45. 52. 5F. 46. 52. 4F. 4E. 54. 0A. 40. 50. 4A. 4C. 20. 
+53. 45. 54. 20. 50. 52. 4F. 43. 45. 53. 53. 49. 4E. 47. 4F. 50. 
+54. 49. 4F. 4E. 3D. 4F. 46. 46. 0A. 40. 50. 4A. 4C. 20. 53. 45. 
+54. 20. 55. 53. 45. 52. 4E. 41. 4D. 45. 3D. 22. 41. 56. 30. 31. 
+39. 36. 34. 22. 0A. 40. 50. 4A. 4C. 20. 53. 45. 54. 20. 4A. 4F. 
+42. 4E. 41. 4D. 45. 3D. 22. E7. 89. 88. E5. BC. 8F. E6. 96. 87. 
+E4. BB. B6. 28. 54. 65. 73. 74. 36. 29. 2E. 70. 64. 66. 22. 0A. 
+40. 50. 4A. 4C. 20. 55. 53. 41. 47. 45. 20. 3D. 20. 43. 55. 52. 
+49. 2C. 61. 30. 34. 31. 2C. 33. 34. 65. 39. 2C. 30. 30. 2C. 2C. 
+30. 34. 2C. 30. 31. 0D. 0A. 40. 50. 4A. 4C. 20. 53. 45. 54. 20. 
+50. 52. 4F. 43. 45. 53. 53. 49. 4E. 47. 54. 59. 50. 45. 3D. 22. 
+49. 4D. 41. 47. 45. 5F. 53. 48. 49. 46. 54. 22. 0A. 40. 50. 4A. 
+4C. 20. 53. 45. 54. 20. 50. 52. 4F. 43. 45. 53. 53. 49. 4E. 47. 
+4F. 50. 54. 49. 4F. 4E. 3D. 22. 4E. 4F. 4E. 45. 22. 0A. 40. 50. 
+4A. 4C. 20. 53. 45. 54. 20. 50. 52. 4F. 43. 45. 53. 53. 49. 4E. 
+47. 42. 4F. 55. 4E. 44. 41. 52. 59. 3D. 4D. 4F. 50. 59. 0A. 40. 
+50. 4A. 4C. 20. 53. 45. 54. 20. 50. 4C. 41. 4E. 45. 53. 49. 4E. 
+55. 53. 45. 20. 3D. 20. 33. 0A. 40. 50. 4A. 4C. 20. 53. 45. 54. 
+20. 44. 55. 50. 4C. 45. 58. 3D. 4F. 46. 46. 0A. 40. 50. 4A. 4C. 
+20. 53. 45. 54. 20. 50. 52. 4F. 43. 45. 53. 53. 49. 4E. 47. 54. 
+59. 50. 45. 3D. 22. 53. 54. 41. 50. 4C. 49. 4E. 47. 22. 0A. 40. 
+50. 4A. 4C. 20. 53. 45. 54. 20. 50. 52. 4F. 43. 45. 53. 53. 49. 
+4E. 47. 4F. 50. 54. 49. 4F. 4E. 3D. 22. 4E. 4F. 4E. 45. 22. 0A. 
+40. 50. 4A. 4C. 20. 53. 45. 54. 20. 50. 52. 4F. 43. 45. 53. 53. 
+49. 4E. 47. 42. 4F. 55. 4E. 44. 41. 52. 59. 3D. 4D. 4F. 50. 59. 
+0A. 40. 50. 4A. 4C. 20. 53. 45. 54. 20. 52. 45. 54. 3D. 4D. 45. 
+44. 49. 55. 4D. 0A. 40. 50. 4A. 4C. 20. 53. 45. 54. 20. 50. 52. 
+49. 4E. 54. 4F. 4E. 42. 41. 43. 4B. 53. 49. 44. 45. 3D. 4F. 46. 
+46. 0A. 40. 50. 4A. 4C. 20. 53. 45. 54. 20. 52. 45. 53. 4F. 4C. 
+55. 54. 49. 4F. 4E. 3D. 36. 30. 30. 0A. 40. 50. 4A. 4C. 20. 45. 
+4E. 54. 45. 52. 20. 4C. 41. 4E. 47. 55. 41. 47. 45. 3D. 50. 43. 
+4C. 58. 4C. 0A. 29. 20. 48. 50. 2D. 50. 43. 4C. 20. 58. 4C. 3B. 
+RIPs ReadTotalSize:9842860 RIPsTunnelStatus:2
+Call Forerunner_ReadbackConsumeWithUel!
+**** PjlCommentBuffer malloc 
+**** malloc address = 92500610
+**** PjlCommentBuffer malloc free (Free malloc not by EOJ command)
+**** malloc address to be freed = 92500610   (From OPBPJLO_DoJob()) 
+**** Now malloc address = 0   (From OPBPJLO_DoJob()) 
+**** PjlCommentBuffer malloc 
+**** malloc address = 92500610
+---OPBC PJL Command Unrecognized!! MOString is "STRINGCODESET"   --- 
+---OPBC PJL Command Unrecognized!! MOString is "SMOOTHING"   --- 
+---OPBC PJL Command Unrecognized!! CMDString is "DMINFO"   --- 
+Enter Forerunner_Unknown
+Enter Forerunner_Unsupport, ForerunnerCurrentStage:4
+Forerunner_TimeoutReset
+PSER_Status:4
+Call Forerunner_ReadbackConsumeWithUel!
+**** PjlCommentBuffer malloc free (Free malloc not by EOJ command)
+**** malloc address to be freed = 92500610   (From OPBPJLO_DoJob()) 
+**** Now malloc address = 0   (From OPBPJLO_DoJob()) 
+**** PjlCommentBuffer malloc 
+**** malloc address = 92500610
+**** PjlCommentBuffer malloc free (Free malloc not by EOJ command)
+**** malloc address to be freed = 92500610   (From OPBPJLO_DoJob()) 
+**** Now malloc address = 0   (From OPBPJLO_DoJob()) 
+**** PjlCommentBuffer malloc 
+**** malloc address = 92500610
+---OPBC PJL Command Unrecognized!! MOString is "STRINGCODESET"   --- 
+---OPBC PJL Command Unrecognized!! MOString is "SMOOTHING"   --- 
+---OPBC PJL Command Unrecognized!! CMDString is "DMINFO"   --- 
+Entry deadlock handling...!
+Pool full! Storesize = 524288
+RIPs SizeStoreinPool:524288
+Enter Forerunner_Unknown
+Enter Forerunner_Unsupport, ForerunnerCurrentStage:4
+RIPs ReadTotalSize:9318572 RIPsTunnelStatus:2
+Pool full! Storesize = 131072
+RIPs SizeStoreinPool:131072
+RIPs ReadTotalSize:9187500 RIPsTunnelStatus:2
+Pool full! Storesize = 131072
+RIPs SizeStoreinPool:131072
+RIPs ReadTotalSize:9056428 RIPsTunnelStatus:2
+Pool full! Storesize = 131072
+RIPs SizeStoreinPool:131072
+RIPs ReadTotalSize:8925356 RIPsTunnelStatus:2
+Pool full! Storesize = 131072
+RIPs SizeStoreinPool:131072
+RIPs ReadTotalSize:8794284 RIPsTunnelStatus:2
+Pool full! Storesize = 131072
+RIPs SizeStoreinPool:131072
+RIPs ReadTotalSize:8663212 RIPsTunnelStatus:2
+Pool full! Storesize = 131072
+RIPs SizeStoreinPool:131072
+RIPs ReadTotalSize:8532140 RIPsTunnelStatus:2
+Pool full! Storesize = 131072
+RIPs SizeStoreinPool:131072
+RIPs ReadTotalSize:8401068 RIPsTunnelStatus:2
+Pool full! Storesize = 131072
+RIPs SizeStoreinPool:131072
+RIPs ReadTotalSize:8269996 RIPsTunnelStatus:2
+Pool full! Storesize = 131072
+RIPs SizeStoreinPool:131072
+RIPs ReadTotalSize:8138924 RIPsTunnelStatus:2
+Pool full! Storesize = 131072
+RIPs SizeStoreinPool:131072
+RIPs ReadTotalSize:8007852 RIPsTunnelStatus:2
+Pool full! Storesize = 131072
+RIPs SizeStoreinPool:131072
+RIPs ReadTotalSize:7876780 RIPsTunnelStatus:2
+Pool full! Storesize = 131072
+RIPs SizeStoreinPool:131072
+RIPs ReadTotalSize:7745708 RIPsTunnelStatus:2
+Pool full! Storesize = 131072
+RIPs SizeStoreinPool:131072
+RIPs ReadTotalSize:7614636 RIPsTunnelStatus:2
+Pool full! Storesize = 131072
+RIPs SizeStoreinPool:131072
+RIPs ReadTotalSize:7483564 RIPsTunnelStatus:2
+Pool full! Storesize = 131072
+RIPs SizeStoreinPool:131072
+RIPs ReadTotalSize:7352492 RIPsTunnelStatus:2
+Pool full! Storesize = 131072
+RIPs SizeStoreinPool:131072
+RIPs ReadTotalSize:7221420 RIPsTunnelStatus:2
+Pool full! Storesize = 131072
+RIPs SizeStoreinPool:131072
+RIPs ReadTotalSize:7090348 RIPsTunnelStatus:2
+Pool full! Storesize = 131072
+RIPs SizeStoreinPool:131072
+RIPs ReadTotalSize:6959276 RIPsTunnelStatus:2
+Pool full! Storesize = 131072
+RIPs SizeStoreinPool:131072
+RIPs ReadTotalSize:6828204 RIPsTunnelStatus:2
+Pool full! Storesize = 131072
+RIPs SizeStoreinPool:131072
+RIPs ReadTotalSize:6697132 RIPsTunnelStatus:2
+Pool full! Storesize = 131072
+RIPs SizeStoreinPool:131072
+RIPs ReadTotalSize:6566060 RIPsTunnelStatus:2
+Pool full! Storesize = 131072
+RIPs SizeStoreinPool:131072
+RIPs ReadTotalSize:6434988 RIPsTunnelStatus:2
+Pool full! Storesize = 131072
+RIPs SizeStoreinPool:131072
+RIPs ReadTotalSize:6303916 RIPsTunnelStatus:2
+Pool full! Storesize = 131072
+RIPs SizeStoreinPool:131072
+RIPs ReadTotalSize:6172844 RIPsTunnelStatus:2
+Pool full! Storesize = 131072
+RIPs SizeStoreinPool:131072
+RIPs ReadTotalSize:6041772 RIPsTunnelStatus:2
+Pool full! Storesize = 131072
+RIPs SizeStoreinPool:131072
+RIPs ReadTotalSize:5910700 RIPsTunnelStatus:2
+Pool full! Storesize = 131072
+RIPs SizeStoreinPool:131072
+RIPs ReadTotalSize:5779628 RIPsTunnelStatus:2
+Pool full! Storesize = 131072
+RIPs SizeStoreinPool:131072
+RIPs ReadTotalSize:5648556 RIPsTunnelStatus:2
+Pool full! Storesize = 131072
+RIPs SizeStoreinPool:131072
+RIPs ReadTotalSize:5517484 RIPsTunnelStatus:2
+Pool full! Storesize = 131072
+RIPs SizeStoreinPool:131072
+RIPs ReadTotalSize:5386412 RIPsTunnelStatus:2
+Pool full! Storesize = 131072
+RIPs SizeStoreinPool:131072
+RIPs ReadTotalSize:5255340 RIPsTunnelStatus:2
+Pool full! Storesize = 131072
+RIPs SizeStoreinPool:131072
+RIPs ReadTotalSize:5124268 RIPsTunnelStatus:2
+Pool full! Storesize = 131072
+RIPs SizeStoreinPool:131072
+RIPs ReadTotalSize:4993196 RIPsTunnelStatus:2
+Pool full! Storesize = 131072
+RIPs SizeStoreinPool:131072
+RIPs ReadTotalSize:4862124 RIPsTunnelStatus:2
+Pool full! Storesize = 131072
+RIPs SizeStoreinPool:131072
+RIPs ReadTotalSize:4731052 RIPsTunnelStatus:2
+Pool full! Storesize = 131072
+RIPs SizeStoreinPool:131072
+RIPs ReadTotalSize:4599980 RIPsTunnelStatus:2
+Pool full! Storesize = 131072
+RIPs SizeStoreinPool:131072
+RIPs ReadTotalSize:4468908 RIPsTunnelStatus:2
+Pool full! Storesize = 131072
+RIPs SizeStoreinPool:131072
+RIPs ReadTotalSize:4337836 RIPsTunnelStatus:2
+Pool full! Storesize = 131072
+RIPs SizeStoreinPool:131072
+RIPs ReadTotalSize:4206764 RIPsTunnelStatus:2
+Pool full! Storesize = 131072
+RIPs SizeStoreinPool:131072
+RIPs ReadTotalSize:4075692 RIPsTunnelStatus:2
+Pool full! Storesize = 131072
+RIPs SizeStoreinPool:131072
+RIPs ReadTotalSize:3944620 RIPsTunnelStatus:2
+Pool full! Storesize = 131072
+RIPs SizeStoreinPool:131072
+RIPs ReadTotalSize:3813548 RIPsTunnelStatus:2
+Pool full! Storesize = 131072
+RIPs SizeStoreinPool:131072
+RIPs ReadTotalSize:3682476 RIPsTunnelStatus:2
+Pool full! Storesize = 131072
+RIPs SizeStoreinPool:131072
+RIPs ReadTotalSize:3551404 RIPsTunnelStatus:2
+Pool full! Storesize = 131072
+RIPs SizeStoreinPool:131072
+RIPs ReadTotalSize:3420332 RIPsTunnelStatus:2
+Pool full! Storesize = 131072
+RIPs SizeStoreinPool:131072
+RIPs ReadTotalSize:3289260 RIPsTunnelStatus:2
+Pool full! Storesize = 131072
+RIPs SizeStoreinPool:131072
+RIPs ReadTotalSize:3158188 RIPsTunnelStatus:2
+Pool full! Storesize = 131072
+RIPs SizeStoreinPool:131072
+RIPs ReadTotalSize:3027116 RIPsTunnelStatus:2
+Pool full! Storesize = 131072
+RIPs SizeStoreinPool:131072
+RIPs ReadTotalSize:2896044 RIPsTunnelStatus:2
+Pool full! Storesize = 131072
+RIPs SizeStoreinPool:131072
+RIPs ReadTotalSize:2764972 RIPsTunnelStatus:2
+Pool full! Storesize = 131072
+RIPs SizeStoreinPool:131072
+RIPs ReadTotalSize:2633900 RIPsTunnelStatus:2
+Pool full! Storesize = 131072
+RIPs SizeStoreinPool:131072
+RIPs ReadTotalSize:2502828 RIPsTunnelStatus:2
+Pool full! Storesize = 131072
+RIPs SizeStoreinPool:131072
+RIPs ReadTotalSize:2371756 RIPsTunnelStatus:2
+Pool full! Storesize = 131072
+RIPs SizeStoreinPool:131072
+RIPs ReadTotalSize:2240684 RIPsTunnelStatus:2
+Pool full! Storesize = 131072
+RIPs SizeStoreinPool:131072
+RIPs ReadTotalSize:2109612 RIPsTunnelStatus:2
+Pool full! Storesize = 131072
+RIPs SizeStoreinPool:131072
+RIPs ReadTotalSize:1978540 RIPsTunnelStatus:2
+Pool full! Storesize = 131072
+RIPs SizeStoreinPool:131072
+RIPs ReadTotalSize:1847468 RIPsTunnelStatus:2
+Pool full! Storesize = 131072
+RIPs SizeStoreinPool:131072
+RIPs ReadTotalSize:1716396 RIPsTunnelStatus:2
+Pool full! Storesize = 131072
+RIPs SizeStoreinPool:131072
+RIPs ReadTotalSize:1585324 RIPsTunnelStatus:2
+Pool full! Storesize = 131072
+RIPs SizeStoreinPool:131072
+RIPs ReadTotalSize:1454252 RIPsTunnelStatus:2
+Pool full! Storesize = 131072
+RIPs SizeStoreinPool:131072
+RIPs ReadTotalSize:1323180 RIPsTunnelStatus:2
+Pool full! Storesize = 131072
+RIPs SizeStoreinPool:131072
+RIPs ReadTotalSize:1192108 RIPsTunnelStatus:2
+Pool full! Storesize = 131072
+RIPs SizeStoreinPool:131072
+RIPs ReadTotalSize:1061036 RIPsTunnelStatus:2
+Pool full! Storesize = 131072
+RIPs SizeStoreinPool:131072
+RIPs ReadTotalSize:929964 RIPsTunnelStatus:2
+Pool full! Storesize = 131072
+RIPs SizeStoreinPool:131072
+RIPs ReadTotalSize:798892 RIPsTunnelStatus:2
+Pool full! Storesize = 131072
+RIPs SizeStoreinPool:131072
+RIPs ReadTotalSize:667820 RIPsTunnelStatus:2
+Pool full! Storesize = 131072
+RIPs SizeStoreinPool:131072
+RIPs ReadTotalSize:536748 RIPsTunnelStatus:2
+Pool full! Storesize = 131072
+RIPs SizeStoreinPool:131072
+RIPs ReadTotalSize:405676 RIPsTunnelStatus:2
+Pool full! Storesize = 131072
+RIPs SizeStoreinPool:131072
+RIPs ReadTotalSize:274604 RIPsTunnelStatus:2
+Pool full! Storesize = 131072
+RIPs SizeStoreinPool:131072
+RIPs ReadTotalSize:143532 RIPsTunnelStatus:2
+Pool full! Storesize = 131072
+RIPs SizeStoreinPool:131072
+RIPs ReadTotalSize:12460 RIPsTunnelStatus:2
+RIPs SizeStoreinPool:12460
+RIPs ReadTotalSize:0 RIPsTunnelStatus:2
+Code time cost: 23983.080000 ms
+RIPs No more data in Sleep 500 ms
+--->>>+++---RIPsIOCheckSum = 0xe4
+RIPsIO TotalConsumeSize = 9699328
+Counter : Cnt1=40, Cnt2=12637, Cnt3=374, Cnt4=74, Cnt5=1, Cnt6=0
+Forerunner_TimeoutReset
+PSER_Status:4
+Call Forerunner_ReadbackConsumeWithUel!
+^^^@@@@ Forerunner_NotifyJobStatus : Already notified Job Done! ^^^@@@@
+**** PjlCommentBuffer malloc free by EOJ
+**** Free malloc address = 0   (From OPBPJLO_DoEoj()) 
+Call Forerunner_ReadbackConsumeWithUel!
